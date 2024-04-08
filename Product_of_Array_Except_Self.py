@@ -31,3 +31,4 @@ class Solution:
 solution = Solution()
 s = [-1,1,0,-3,3]
 print(solution.productExceptSelf(s))
+
