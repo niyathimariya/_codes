@@ -31,3 +31,26 @@ class Solution:
 solution = Solution()
 s="hello"
 print(solution.reverseVowels(s))
+
+
+# class Solution:
+#     def reverseVowels(self, s: str) -> str:
+#         vowels=['a','e','i','o','u','A','E','I','O','U'];
+#         indexofvowels=[];
+#         reverseindexofvowels=[];
+#         for i in range(len(s)):
+#             if s[i] in vowels:
+#                 indexofvowels.append(i)
+        
+#         reverseindexofvowels=indexofvowels[::-1]
+#         print(indexofvowels)
+#         print(reverseindexofvowels)
+#         newstring=""
+#         count=0
+#         for i in range(len(s)):
+#             if i in indexofvowels:
+#                 newstring=newstring+s[reverseindexofvowels[count]]
+#                 count+=1
+#             else:
+#                 newstring=newstring+s[i]
+#         return(newstring)
