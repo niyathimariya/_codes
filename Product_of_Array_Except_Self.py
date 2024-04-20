@@ -13,7 +13,7 @@
 from typing import List
 
 class Solution:
-    def productExceptSelf(self, nums: List[int]):
+    def productExceptSelf(self, nums: list[int]):
         n = len(nums)
         prefix = [1] * n
         suffix = [1] * n
