@@ -9,8 +9,6 @@
 # Example 2:
 # Input: nums = [0]
 # Output: [0]
-
-
 class Solution:
     def moveZeroes(self, nums: list[int]) -> None:
         for x in range(0,len(nums)):
