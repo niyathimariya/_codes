@@ -16,7 +16,7 @@
 # Explanation: The triplet (3, 4, 5) is valid because nums[3] == 0 < nums[4] == 4 < nums[5] == 6.
 
 class Solution:
-    def increasingTriplet(self, nums: List[int]) -> bool:
+    def increasingTriplet(self, nums: list[int]) -> bool:
         if len(nums) < 3:
             return False
         
