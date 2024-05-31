@@ -6,6 +6,7 @@ def combination(a):
     combinations=a.copy();
     for i in range(len(a)):
         for j in range(i+1,len(a)):
+            combinations.append(a[i]+a[j:])
             
 
 
