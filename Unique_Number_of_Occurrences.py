@@ -16,7 +16,7 @@
 # Output: true
 
 class Solution:
-    def uniqueOccurrences(self, arr: List[int]) -> bool:
+    def uniqueOccurrences(self, arr: list[int]) -> bool:
         count = {}
         for num in arr:
             if num in count:
