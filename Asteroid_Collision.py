@@ -36,3 +36,6 @@ class Solution:
                 stack.append(asteroid)
         
         return stack
+solution = Solution()
+asteroids = [10,2,-5]
+print(solution.asteroidCollision(asteroids))
